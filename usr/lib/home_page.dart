@@ -99,7 +99,7 @@ class HomePage extends StatelessWidget {
                   ),
                   child: Center(
                     child: Text(
-                      items[index]['name']![0],
+                      (items[index]['name'] as String)[0],
                       style: const TextStyle(
                         fontSize: 32,
                         fontWeight: FontWeight.bold,
